@@ -20,5 +20,7 @@ jobs:
       - name: build with maven
         run: mvn -B package --file pom.xml
         
-    BUILD:
+  build: 
+    runs-on: self-hosted
+    run: echo "build step"
       
