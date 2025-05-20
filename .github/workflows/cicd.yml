@@ -22,5 +22,6 @@ jobs:
         
   build: 
     runs-on: self-hosted
-    run: echo "build step"
+    steps: 
+      - run: echo "build step"
       
