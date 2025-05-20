@@ -22,6 +22,7 @@ jobs:
         
   build: 
     runs-on: self-hosted
+    needs: compile
     steps: 
       - run: echo "build step"
       
